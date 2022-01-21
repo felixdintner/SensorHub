@@ -16,3 +16,8 @@ It is also possible to order a standalone CTS starter kit to develop custom end 
 
 ## Getting Started
 Once you have received the CTS starter kit, please follow these instructions to connect the devices to the IoT Hub: [Create an IoT hub using the Azure portal](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal)
+
+Here an example of the payload being transmitted by the device to the Azure IoT Hub:
+```bash
+{"schema": "CALUMINO_V2", "utcMSecs": 1642738249209, "data": {"eventType": "EVT_IM_ALIVE", "serialNum": "0000f2297a64", "mac": "dca632b0f7fd", "hwVer": 537276672, "swVer": 537469696, "peopleCount": 0, "visibleCount": 0, "currentEnter": 0, "currentExit": 0, "relativeCount": 0, "areaCounters": {}, "bootUptimeSecs": 145348}}
+```
