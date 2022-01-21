@@ -13,3 +13,6 @@ As per diagram below, the low-res Infrared images from the CTS are processed on-
 ## How to order a CTS
 The Calumino Sensor Hub can be ordered via our customer service desk at [Contact us - Calumino](https://calumino.com/contact-us/) or info@calumino.com.
 It is also possible to order a standalone CTS starter kit to develop custom end user devices and applications.
+
+## Getting Started
+Once you have received the CTS starter kit, please follow these instructions to connect the devices to the IoT Hub: [Create an IoT hub using the Azure portal](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal)
