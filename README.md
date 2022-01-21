@@ -9,3 +9,7 @@ The Calumino Sensor Hub is a multi-use sensor, performing functions such as peop
 As per diagram below, the low-res Infrared images from the CTS are processed on-edge using Calumino's proprietary Computer Vision pipeline architecture. The Azure IoT SDK receives the count data out of the pipelines and transmits it to Azure IoT Hub. 
 
 ![Architecture](/Docs/Images/architecture.png)
+
+## How to order a CTS
+The Calumino Sensor Hub can be ordered via our customer service desk at [Contact us - Calumino](https://calumino.com/contact-us/) or info@calumino.com.
+It is also possible to order a standalone CTS starter kit to develop custom end user devices and applications.
