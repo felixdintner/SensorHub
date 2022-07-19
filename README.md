@@ -1,4 +1,4 @@
-# SensorHub
+# Calumino Sensor Hub
 Calumino's door counting and people counting solution
 
 The Calumino Sensor Hub is a device employing the Calumino thermal sensor (CTS), combined with on-edge processing and network connectivity for Internet of Things (IoT) applications.
@@ -10,12 +10,12 @@ As per diagram below, the low-res Infrared images from the CTS are processed on-
 
 ![Architecture](/Docs/Images/architecture.png)
 
-## How to order a CTS
+## How to order a Calumino Sensor Hub
 The Calumino Sensor Hub can be ordered via our customer service desk at [Contact us - Calumino](https://calumino.com/contact-us/) or info@calumino.com.
 It is also possible to order a standalone CTS starter kit to develop custom end user devices and applications.
 
 ## Getting Started
-1. Once you have received the CTS starter kit, please follow these instructions to connect the devices to the IoT Hub: [Create an IoT hub using the Azure portal](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal)
+1. Once you have received the Calumino Sensor Hub, please follow these instructions to connect the devices to the IoT Hub and obtain the connection string: [Create an IoT hub using the Azure portal](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal)
 
 2. Once you have received the connection string, please visit the settings page is available at: `http://{ip_address}:1234` or `http://{hostname}.local:1234`   
 {ip_address} and {hostname} can be obtained from a local ip scanner software.
@@ -24,7 +24,7 @@ It is also possible to order a standalone CTS starter kit to develop custom end 
 
 ![Settings page](/Docs/Images/settings.png)
 
-4. Here an example of the payload being transmitted by the device to the Azure IoT Hub:
+4. Bravo! That's all. Now your Calumino Sensor Hub will stream the metrics data, such as people or door counting values directly to your Azure IoT Hub. Here an example of the payload:
 ```bash
 {"schema": "CALUMINO_V2", "utcMSecs": 1642738249209, "data": {"eventType": "EVT_IM_ALIVE", "serialNum": "0000f2297a64", "mac": "dca632b0f7fd", "hwVer": 537276672, "swVer": 537469696, "peopleCount": 0, "visibleCount": 0, "currentEnter": 0, "currentExit": 0, "relativeCount": 0, "areaCounters": {}, "bootUptimeSecs": 145348}}
 ```
